@@ -9,6 +9,6 @@ narzędzie automatyzacji zadań GULP.
 * Żółty - #ecd407
 * Szary - #292929
 ## Podgląd projektu
-![PNG Layout](https://raw.githubusercontent.com/codekidney/a108-sass-gulp-landing/master/app/public/images/background.png)
+![PNG Layout](https://raw.githubusercontent.com/codekidney/a108-sass-gulp-landing/master/app/src/preview/landing-finanse.png)
 ## Grafiki do projektu dostępne są pod linkiem:
 * [Grafiki](https://akademia108.pl/kurs-front-end/grafika-landing-finanse.zip)
