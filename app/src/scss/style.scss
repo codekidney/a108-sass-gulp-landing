@@ -1,0 +1,91 @@
+@import "variables";
+
+body {
+    font-family: $defaultFont;
+    font-size: 14px;
+}
+h2 {
+    font-size: 28px;
+}
+h4 {
+    font-size: 22px;
+}
+a {
+    &:hover, &:focus {
+        text-decoration: none;
+    }
+}
+section {
+    &.big-picture {
+        background: url('../images/background.png') no-repeat top center;
+        background-size: cover;
+    }
+}
+.btn {
+    &-primary {
+        background-color: $yellow;
+        border-color: $yellow;
+        padding: $gutter 2*$gutter;
+        color: $fontColor;
+        font-weight: bold;
+    }
+}
+.logo {
+    font-size: 32px;
+    .icon {
+        font-size: 48px;
+        color: $yellow;
+    }
+}
+header {
+    color: $white;
+    margin-bottom: 4*$gutter;
+    a {
+        color: $white;
+        &:hover, &:focus {
+            color: $white;
+        }
+    }
+}
+strong {
+    color: $yellow;
+}
+section, footer {
+    padding: 4*$gutter 0;
+}
+.inverted {
+    color: $white;
+}
+.form {
+    background: $blue;
+}
+.call {
+    font-size: 14px;
+    .icon {
+        font-size: 32px;
+    }
+}
+.footer {
+    background: $grey;
+    &-icon {
+        display: inline-block;
+        text-align: center;
+        margin-bottom: 2*$gutter;
+        .icon {
+            padding: $gutter;
+            background: $yellow;
+            color: $fontColor;
+            font-size: 24px;
+            margin-bottom: $gutter/3;
+        }
+        .text {
+            color: $white;
+            display: block;
+        }
+    }
+}
+p, .form-group {
+    &:last-child {
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "a108-zajecia-landing",
+  "version": "1.0.0",
+  "description": "Landing Page Finanse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codekidney/a108-zajecia-landing.git"
+  },
+  "keywords": [
+    "landing",
+    "page",
+    "finanse"
+  ],
+  "author": "Kamil Nowak <info@kamilnowak.com> (https://kamilnowak.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "font-awesome": "^4.7.0",
+    "gulp": "^4.0.2",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
+}

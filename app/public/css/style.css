@@ -1,0 +1,74 @@
+/* Colors */
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px; }
+
+h2 {
+  font-size: 28px; }
+
+h4 {
+  font-size: 22px; }
+
+a:hover, a:focus {
+  text-decoration: none; }
+
+section.big-picture {
+  background: url("../images/background.png") no-repeat top center;
+  background-size: cover; }
+
+.btn-primary {
+  background-color: #ecd407;
+  border-color: #ecd407;
+  padding: 15px 30px;
+  color: #1a1a1a;
+  font-weight: bold; }
+
+.logo {
+  font-size: 32px; }
+  .logo .icon {
+    font-size: 48px;
+    color: #ecd407; }
+
+header {
+  color: #fff;
+  margin-bottom: 60px; }
+  header a {
+    color: #fff; }
+    header a:hover, header a:focus {
+      color: #fff; }
+
+strong {
+  color: #ecd407; }
+
+section, footer {
+  padding: 60px 0; }
+
+.inverted {
+  color: #fff; }
+
+.form {
+  background: #001d8a; }
+
+.call {
+  font-size: 14px; }
+  .call .icon {
+    font-size: 32px; }
+
+.footer {
+  background: #292929; }
+  .footer-icon {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 30px; }
+    .footer-icon .icon {
+      padding: 15px;
+      background: #ecd407;
+      color: #1a1a1a;
+      font-size: 24px;
+      margin-bottom: 5px; }
+    .footer-icon .text {
+      color: #fff;
+      display: block; }
+
+p:last-child, .form-group:last-child {
+  margin-bottom: 0; }
